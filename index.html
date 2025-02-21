@@ -43,7 +43,7 @@
 					<nav id="nav">
 						<ul>
 							<li><a href="#home" class="active">Home</a></li>
-<!--							<li><a href="#program">Program</a></li>-->
+							<li><a href="#program">Program</a></li>
 <!--							<li><a href="#poster">Poster Session</a></li>-->
 <!--							<li><a href="#schedule">Schedule</a></li>-->
 <!--							<li><a href="#poster-schedule">Poster Session</a></li>-->
@@ -140,31 +140,196 @@
 							</li>
 							</ul>
 								<header class="major">
-									<h2>Program (tentative)</h2>
+									<h2 id="program">Program</h2>
 								</header>
 								<table>
               					<tr><td colspan="2"><h2><b>March 1st (Sat)</b></h2></td></tr>
 								<tr><td>10:00--10:05</td><td>Opening Remark</td></tr>
-								<tr><td>10:05--10:55</td><td>Masaaki Imaizumi</td></tr>
-								<tr><td>10:55--11:45</td><td>Han Bao</td></tr>
+								<tr><td>10:05--10:55</td><td>
+									<div class="hidden_box">
+										<p>
+											<a href="https://sites.google.com/view/mimaizumi/home" target="_blank"><b>Masaaki Imaizumi</b></a> (The University of Tokyo)</br>
+										</br>
+										Title: TBA</br>
+										<label for="label_1_1" style="display: inline-block; _display: inline;">Abstract</label>
+									</p>
+									<input type="checkbox" id="label_1_1"/>
+									<div class="hidden_show">
+										<h5>TBA</h5>
+									</div>
+									</div>
+								</td></tr>
+								<tr><td>10:55--11:45</td><td>
+									<div class="hidden_box">
+										<p>	
+												<a href="https://hermite.jp/" target="_blank"><b>Han Bao</b></a> (Kyoto University)</br>
+											</br>
+											Title: Self-supervised learning: what neuroscience and learning dynamics teach us</br>
+											<label for="label_1_2" style="display: inline-block; _display: inline;">Abstract</label>
+										</p>
+										<input type="checkbox" id="label_1_2"/>
+										<div class="hidden_show">
+											<h5>Self-supervised learning (SSL) has become a cornerstone in advancing learning efficiency and enhancing multi-modal alignment in modern machine learning. However, the reasons behind the necessity of certain SSL architectures and components, as well as the benefits they provide, remain unclear. In this talk, I present our recent work, which establishes a strong connection between non-contrastive SSL architectures and a hippocampal model, enabling further improvements in SSL performance. Additionally, we we analyze the learning stability of different SSL architectures based on their learning dynamics.</h5>
+										</div>
+										</div>
+								</td></tr>
 								<tr><td>11:45--13:15</td><td>Lunch</td></tr>
-								<tr><td>13:15--14:05</td><td>Dino Sejdinovic</td></tr>
-								<tr><td>14:05--14:55</td><td>Motonobu Kanagawa</td></tr>
+								<tr><td>13:15--14:05</td><td>
+									<div class="hidden_box">
+										<p>
+												<a href="https://sejdino.github.io/" target="_blank"><b>Dino Sejdinovic</b></a> (University of Adelaide)</br>
+											</br>
+											Title: An Overview of Causal Inference using Kernel Embeddings</br>
+											<label for="label_1_3" style="display: inline-block; _display: inline;">Abstract</label>
+										</p>
+										<input type="checkbox" id="label_1_3"/>
+										<div class="hidden_show">
+											<h5>Kernel embeddings have emerged as a powerful tool for representing probability measures in a variety of statistical inference problems. By mapping probability measures into a reproducing kernel Hilbert space (RKHS), kernel embeddings enable flexible representations of complex relationships between variables. They serve as a mechanism for efficiently transferring the representation of a distribution downstream to other tasks, such as hypothesis testing or causal effect estimation. In the context of causal inference, the main challenges include identifying causal associations and estimating the average treatment effect from observational data, where confounding variables may obscure direct cause-and-effect relationships. Kernel embeddings provide a robust nonparametric framework for addressing these challenges. They allow for the representations of distributions of observational data and their seamless transformation into representations of interventional distributions to estimate relevant causal quantities. We overview recent research that leverages the expressiveness of kernel embeddings in tandem with causal inference.</h5>
+										</div>
+										</div>
+								</td></tr>
+								<tr><td>14:05--14:55</td><td>
+									<div class="hidden_box">
+										<p>
+												<a href="https://sites.google.com/site/motonobukanagawa/" target="_blank"><b>Motonobu Kanagawa</b></a> (EURECOM)</br>
+											</br>
+											Title: Comparing Scale Parameter Estimators for Gaussian Process Regression: Cross Validation and Maximum Likelihood</br>
+											<label for="label_1_4" style="display: inline-block; _display: inline;">Abstract</label>
+										</p>
+										<input type="checkbox" id="label_1_4"/>
+										<div class="hidden_show">
+											<h5>Gaussian process (GP) regression is a Bayesian nonparametric method for regression and interpolation, offering a principled way of quantifying the uncertainties of predicted function values. For the quantified uncertainties to be well-calibrated, however, the covariance kernel of the GP prior has to be carefully selected. In this talk, we theoretically compare two methods for choosing the kernel in GP regression: cross-validation and maximum likelihood estimation. Focusing on the scale-parameter estimation of a Brownian motion kernel in the noiseless setting, we prove that cross-validation can yield asymptotically well-calibrated credible intervals for a broader class of ground-truth functions than maximum likelihood estimation, suggesting an advantage of the former over the latter.</h5>
+										</div>
+										</div>
+								</td></tr>
 								<tr><td></td><td>20 min break</td></tr>
-								<tr><td>15:15--16:05</td><td>Naoya Takeishi</td></tr>
-								<tr><td>16:05--16:55</td><td>Miyato Takeru</td></tr>
+								<tr><td>15:15--16:05</td><td>
+									<div class="hidden_box">
+										<p>
+												<a href="https://ntake.jp/ja/" target="_blank"><b>Naoya Takeishi</b></a> (The University of Tokyo)</br>
+											</br>
+											Title: Learning hybrid models combining scientific models and machine learning</br>
+											<label for="label_1_5" style="display: inline-block; _display: inline;">Abstract</label>
+										</p>
+										<input type="checkbox" id="label_1_5"/>
+										<div class="hidden_show">
+											<h5>Scientific mathematical models, such as differential equations, and machine learning models, such as deep neural nets, are typically considered to be complementary to each other in terms of adaptability to real data and robustness of prediction. We aim to take the best of both worlds by combining the two types of models, namely hybrid or grey-box modeling. Learning hybrid models is not always straightforward; for example, unknown parameters of a scientific model may be severely unidentifiable when the machine learning counterpart has high flexibility, which is problematic when we are interested in interpreting them to gain scientific insights. This talk will introduce technical challenges around hybrid modeling and the status of the current studies.</h5>
+										</div>
+										</div>
+								</td></tr>
+								<tr><td>16:05--16:55</td><td>
+									<div class="hidden_box">
+										<p>
+												<a href="https://takerum.github.io/" target="_blank"><b>Takeru Miyato</b></a> (University of Tubingen)</br>
+											</br>
+											Title: ARTIFICIAL KURAMOTO OSCILLATORY NEURONS</br>
+											<label for="label_1_6" style="display: inline-block; _display: inline;">Abstract</label>
+										</p>
+										<input type="checkbox" id="label_1_6"/>
+										<div class="hidden_show">
+											<h5>It has long been known in both neuroscience and AI that ``binding'' between neurons leads to a form of competitive learning where representations are compressed in order to represent more abstract concepts in deeper layers of the network. More recently, it was also hypothesized that dynamic (spatiotemporal) representations play an important role in both neuroscience and AI. Building on these ideas, we introduce Artificial Kuramoto Oscillatory Neurons (AKOrN) as a dynamical alternative to threshold units, which can be combined with arbitrary connectivity designs such as fully connected, convolutional, or attentive mechanisms. Our generalized Kuramoto updates bind neurons together through their synchronization dynamics. We show that this idea provides performance improvements across a wide spectrum of tasks such as unsupervised object discovery, adversarial robustness, calibrated uncertainty quantification, and reasoning. We believe that these empirical results show the importance of rethinking our assumptions at the most basic neuronal level of neural representation, and in particular show the importance of dynamical representations.</h5>
+										</div>
+										</div>
+								</td></tr>
 								</table>
 								<table>
               					<tr><td colspan="2"><h2><b>March 2nd (Sun)</b></h2></td></tr>
-								<tr><td> 9:15--10:05</td><td>Atsushi Nitanda</td></tr>
-								<tr><td>10:05--10:55</td><td>Taiji Suzuki</td></tr>
+								<tr><td> 9:15--10:05</td><td>
+									<div class="hidden_box">
+										<p>
+												<a href="https://sites.google.com/site/atsushinitanda" target="_blank"><b>Atsushi Nitanda</b></a> (A<sup>*</sup>Star)</br>
+											</br>
+											Title: Propagation of Chaos for Mean-Field Langevin Dynamics and its Application to Model Ensemble</br>
+											<label for="label_2_1" style="display: inline-block; _display: inline;">Abstract</label>
+										</p>
+										<input type="checkbox" id="label_2_1"/>
+										<div class="hidden_show">
+											<h5>Mean-field Langevin dynamics (MFLD) is an optimization method derived by taking the mean-field limit of noisy gradient descent for two-layer neural networks in the mean-field regime. Recently, the propagation of chaos (PoC) for MFLD has gained attention as it provides a quantitative characterization of the optimization complexity in terms of the number of particles and iterations. A remarkable progress by Chen et al. (2022) showed that the approximation error due to finite particles remains uniform in time and diminishes as the number of particles increases. In this paper, by refining the defective log-Sobolev inequality---a key result from that earlier work---under the neural network training setting, we establish an improved PoC result for MFLD, which removes the exponential dependence on the regularization coefficient from the particle approximation term of the optimization complexity. As an application, we propose a PoC-based model ensemble strategy with theoretical guarantees.</h5>
+										</div>
+										</div>
+								</td></tr>
+								<tr><td>10:05--10:55</td><td>
+									<div class="hidden_box">
+										<p>
+												<a href="http://ibis.t.u-tokyo.ac.jp/suzuki/" target="_blank"><b>Taiji Suzuki</b></a> (The University of Tokyo)</br>
+											</br>
+											Title: Theories and methodologies of post training and test time inference</br>
+											<label for="label_2_2" style="display: inline-block; _display: inline;">Abstract</label>
+										</p>
+										<input type="checkbox" id="label_2_2"/>
+										<div class="hidden_show">
+											<h5>In this talk, I will talk about (i) a post training method for diffusion models and (ii) recent theoretical developments of test time inference. In the first part, I introduce a new post training method for diffusion models that directly minimizes a generic regularized loss over probability distributions using the Dual Averaging (DA) method. The DA procedure provides the density ratio between the pre-trained model and the optimized model by which we enable sampling from the learned distribution by approximating its score function via Doob's h-transform technique. The method is theoretically supported by theories on convergence guarantee and discretization error.
+												In the second half, I present recent theoretical developments that elucidate the learning capabilities of Transformers, focusing on in-context learning and chain-of-thought (CoT). I show that nonlinear feature learning for in-context learning can be done with optimization guarantee where the rate of convergence is characterized by the information exponent of the target function. Finally, if time allows, a theoretical guarantee of chain-of-thought will be given. It is demonstrated that CoT improves learning efficiency drastically by making use of intermediate outputs as a hint of solving a given problem.</h5>
+										</div>
+										</div>
+								</td></tr>
 								<tr><td></td><td>15 min break</td></tr>
-								<tr><td>11:10--12:00</td><td>Arnaud Doucet</td></tr>
+								<tr><td>11:10--12:00</td><td>
+									<div class="hidden_box">
+										<p>
+												<a href="https://www.stats.ox.ac.uk/~doucet/" target="_blank"><b>Arnaud Doucet</b></a> (University of Oxford)</br>
+											</br>
+											Title: Accelerated Diffusion Models via Speculative Sampling</br>
+											<label for="label_2_3" style="display: inline-block; _display: inline;">Abstract</label>
+										</p>
+										<input type="checkbox" id="label_2_3"/>
+										<div class="hidden_show">
+											<h5>Speculative sampling is a popular technique for accelerating inference in Large Language Models by generating candidate tokens using a fast draft model and accepting or rejecting them based on the target model's distribution. While speculative sampling was previously limited to discrete sequences, we extend it to diffusion models, which generate samples via continuous, vector-valued Markov chains. In this context, the target model is a high-quality but computationally expensive diffusion model. We propose various drafting strategies, including a simple and effective approach that does not require training a draft model and is applicable out of the box to any diffusion model. Our experiments demonstrate significant generation speedup on various diffusion models, halving the number of function evaluations, while generating exact samples from the target model.</h5>
+										</div>
+										</div>
+								</td></tr>
 								<tr><td>12:00--13:30</td><td>Lunch</td></tr>
-								<tr><td>13:30--14:20</td><td>Arthur Gretton</td></tr>
-								<tr><td>14:20--15:10</td><td>Song Liu</td></tr>
+								<tr><td>13:30--14:20</td><td>
+									<div class="hidden_box">
+										<p>
+												<a href="https://www.gatsby.ucl.ac.uk/~gretton/" target="_blank"><b>Arthur Gretton</b></a> (University College London)</br>
+											</br>
+											Title: Adaptive two-sample testing</br>
+											<label for="label_2_4" style="display: inline-block; _display: inline;">Abstract</label>
+										</p>
+										<input type="checkbox" id="label_2_4"/>
+										<div class="hidden_show">
+											<h5>"I will address the problem of two-sample testing using the Maximum Mean Discrepancy (MMD). The MMD is an integral probability metric defined using a reproducing kernel Hilbert space (RKHS), with properties determined by the choice of kernel. For good test power, the kernel must be chosen in accordance with the properties of the distributions being compared. 
+										
+												I will assume that the distributions being tested have densities, and the difference in densities lies in a Sobolev ball. The MMD test is then minimax optimal with a specific kernel depending on the smoothness parameter of the Sobolev ball. In practice, this parameter is unknown: to overcome this issue, I describe an aggregated test, called MMDAgg, which is adaptive to the smoothness parameter. The test power is maximised over the collection of kernels used, without requiring held-out data for kernel selection (which results in a loss of test power). MMDAgg controls the test level non-asymptotically, and achieves the minimax rate over Sobolev balls, up to an iterated logarithmic term. Guarantees hold for any product of one-dimensional translation invariant characteristic kernels."
+												</h5>
+										</div>
+										</div>
+								</td></tr>
+								<tr><td>14:20--15:10</td><td>
+									<div class="hidden_box">
+										<p>
+												<a href="https://allmodelsarewrong.net/" target="_blank"><b>Song Liu</b></a> (University of Bristol)</br>
+											</br>
+											Title: High-Dimensional Differential Parameter Inference in Exponential Family using Time Score Matching</br>
+											<label for="label_2_5" style="display: inline-block; _display: inline;">Abstract</label>
+										</p>
+										<input type="checkbox" id="label_2_5"/>
+										<div class="hidden_show">
+											<h5>This paper addresses differential inference in time-varying parametric probabilistic models, like graphical models with changing structures. Instead of estimating a high-dimensional model at each time and inferring changes later, we directly learn the differential parameter, i.e., the time derivative of the parameter. The main idea is treating the time score function of an exponential family model as a linear model of the differential parameter for direct estimation. We use time score matching to estimate parameter derivatives. We prove the consistency of a regularized score matching objective and demonstrate the finite-sample normality of a debiased estimator in high-dimensional settings. Our methodology effectively infers differential structures in high-dimensional graphical models, verified on simulated and real-world datasets.
+										
+												The talk may include some ongoing work, and the abstract may be supplemented later. 
+												
+												This is a joint work with Daniel J. Williams, Leyang Wang, Qizhen Ying, and Mladen Kolar
+												https://arxiv.org/abs/2410.10637</h5>
+										</div>
+										</div>
+								</td></tr>
 								<tr><td></td><td>20 min break</td></tr>
-								<tr><td>15:30--16:20</td><td>Kenji Fukumizu</td></tr>
+								<tr><td>15:30--16:20</td><td>
+									<div class="hidden_box">
+										<p>
+												<a href="http://www.ism.ac.jp/~fukumizu/" target="_blank"><b>Kenji Fukumizu</b></a>  (The Institute of Statistical Mathematics)
+											</br>
+											Title: Pairwise Optimal Transport and All-to-All Flow-based Condition Transfer</br>
+											<label for="label_2_6" style="display: inline-block; _display: inline;">Abstract</label>
+										</p>
+										<input type="checkbox" id="label_2_6"/>
+										<div class="hidden_show">
+											<h5>In this work, we propose a flow-based method for learning all-to-all transfer maps among conditional distributions, approximating pairwise optimal transport. The proposed method addresses the challenge of handling continuous conditions, which often involve a large set of conditions with sparse empirical observations per condition. We introduce a novel cost function that enables simultaneous learning of optimal transports for all pairs of conditional distributions. Our method is supported by a theoretical guarantee that, in the limit, it converges to pairwise optimal transports among infinite pairs of conditional distributions. The learned transport maps are subsequently used to couple data points in conditional flow matching. We demonstrate the effectiveness of this method on synthetic and benchmark datasets, as well as on chemical datasets where continuous physical properties are defined as conditions.</h5>
+										</div>
+										</div>
+								</td></tr>
 								</table>
 								<p align="center"><a href="slides/FIMI 2025 Program 20250202.pdf" target="_blank"><object data="slides/FIMI 2025 Program 20250204.pdf" type="application/pdf" width=100% height="400px"></object></a></p>
 							</div>
