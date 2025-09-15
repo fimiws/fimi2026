@@ -1626,6 +1626,7 @@
 		background-image: url("images/shinjuku.png");
 		background-size: 100% auto;
 		background-repeat: repeat-y;
+		background-attachment: fixed;
 		color: rgba(255, 255, 255, 0.65);
 	}
 
